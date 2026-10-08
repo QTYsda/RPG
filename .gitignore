@@ -1,0 +1,61 @@
+# Unity 生成目录（体积大、可重新生成，禁止上传）
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# 资源文件的 meta 需要保留
+!/[Aa]ssets/**/*.meta
+
+# IDE / 编辑器缓存
+.vs/
+.vscode/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+
+# 自动生成的解决方案与工程文件
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D 生成的 meta
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# 崩溃日志
+sysinfo.txt
+
+# 打包产物
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+
+# Addressables / 自动生成的资源
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# 系统文件
+.DS_Store
+Thumbs.db
